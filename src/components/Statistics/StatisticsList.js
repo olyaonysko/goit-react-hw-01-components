@@ -1,4 +1,3 @@
-// import React from 'react'
 import s from './Statistics.module.css';
 import getRandomColor from './randomColor';
 

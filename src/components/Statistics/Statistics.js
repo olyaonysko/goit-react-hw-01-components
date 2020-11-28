@@ -1,4 +1,3 @@
-// import React from 'react'
 import PropTypes from 'prop-types';
 import StatisticsList from './StatisticsList';
 import s from './Statistics.module.css';

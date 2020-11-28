@@ -1,5 +1,3 @@
-// import React from 'react';
-
 const TransactionItem = ({ id, type, amount, currency }) => {
   return (
     <tr key={id}>
