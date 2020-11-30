@@ -1,7 +1,6 @@
 import s from './Stats.module.css';
 
-const Stats = ({ stats }) => {
-  const { followers, views, likes } = stats;
+const Stats = ({ followers, views, likes }) => {
   return (
     <ul className={s.stats}>
       <li className={s.statsItem}>

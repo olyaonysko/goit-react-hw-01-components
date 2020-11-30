@@ -4,14 +4,14 @@ import getRandomColor from './randomColor';
 const StatisticsList = ({ stats }) => {
   return (
     <ul className={s.statList}>
-      {stats.map(item => (
+      {stats.map(({ id, label, percentage }) => (
         <li
           className={s.statListItem}
-          key={item.id}
+          key={id}
           style={{ backgroundColor: getRandomColor() }}
         >
-          <span className={s.label}>{item.label}</span>
-          <span className={s.percentage}>{item.percentage}%</span>
+          <span className={s.label}>{label}</span>
+          <span className={s.percentage}>{percentage}%</span>
         </li>
       ))}
     </ul>
